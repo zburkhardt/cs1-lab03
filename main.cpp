@@ -1,14 +1,13 @@
-/* ADD INFO SECTION */
-/* ADD INFO SECTION */
-/* ADD INFO SECTION */
-/* ADD INFO SECTION */
-/* ADD INFO SECTION */
-/* ADD INFO SECTION */
-/* ADD INFO SECTION */
-/* ADD INFO SECTION */
-/* ADD INFO SECTION */
-/* ADD INFO SECTION */
-/* ADD INFO SECTION */
+/*
+    COPYRIGHT (C) 2018 Zach Burkhardt (zmb14) All rights reserved.
+    CSI assignment 3-A
+    Author. Zach Burkhardt
+            zmb14@zips.uakron.edu
+    Version. 1.00 09.20.2018
+    Purpose: This program will request input on the number of organisms and check that the input is valid.
+*/
+
+// My Validation Program for input
 
 #include <iostream> // for input-output stream operations
 #include <iomanip> // for providing parametric manipulators operations
