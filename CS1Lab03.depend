@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1537280963 source:c:\users\zmb14\documents\codeblocksprojects\cs1lab03\main.cpp
+	<iostream>
+	<iomanip>
+	<limits>
+
