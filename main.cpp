@@ -32,10 +32,10 @@ int main()
         // starting size of the population
         if ((cin.fail()) || organisms < 2) // decision construct tests 2 conditions
         {
-            cout << "The starting number of organisms "
+            cout << "The starting number of organisms " // output stream a message
                  << "must be a valid number that is at least 2.\n";
-            cin.clear();
-            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            cin.clear(); // clear error flag for cin
+            cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); //
         }
         else
         {
@@ -50,10 +50,12 @@ int main()
 
 What does the using std::..., do for us, and why would we use this instead of using std namespace?
 
+
 What about cin.fail() for console input?
-    Cin.fail() tests cin input to check compatibility with the variable's type. This ensures that
-    we do not get #################################
+    Cin.fail() checks if the inputed value is compatible with the variable type.
+
 What was a short-circuit evaluation?
+
 
 What about the parameters for ignore, the numeric limits and streamsize?
 
